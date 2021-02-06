@@ -1,0 +1,71 @@
+:root {
+  --blue-text: rgba(33, 150, 243, 1);
+  --black-text: rgba(33, 33, 33, 1);
+  --grey-text: rgba(117, 117, 117, 1);
+  --white-text: rgba(255, 255, 255, 1);
+  --lihtblack-text: rgba(47, 48, 58, 1);
+}
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: var(--black-text);
+}
+
+.web {
+  color: var(--blue-text);
+}
+.nav-link {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: var(--black-text);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--blue-text);
+}
+
+.contacts-link {
+  font-size: 14px;
+  line-height: 1.1;
+  font-weight: 500;
+  color: var(--grey-text);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--blue-text);
+}
+
+footer {
+  background-color: var(--lihtblack-text);
+}
+
+.address-logo {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: var(--white-text);
+}
+
+.contacts {
+  font-size: 14px;
+  line-height: 1.1;
+  font-weight: 400;
+  color: var(--grey-text);
+}
+
+.address {
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 400;
+  color: var(--white-text);
+}
