@@ -5,6 +5,7 @@
   --white-text: rgba(255, 255, 255, 1);
   --lihtblack-text: rgba(47, 48, 58, 1);
   --lihtgrey-text: rgba(245, 244, 250, 1);
+  --middlewhite-text: rgba(255, 255, 255, 0.6);
 }
 body {
   font-family: Roboto, sans-serif;
@@ -61,7 +62,7 @@ footer {
   font-size: 14px;
   line-height: 1.1;
   font-weight: 400;
-  color: var(--grey-text);
+  color: var(--middlewhite-text);
 }
 
 .address {
