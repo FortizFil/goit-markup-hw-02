@@ -4,6 +4,7 @@
   --grey-text: rgba(117, 117, 117, 1);
   --white-text: rgba(255, 255, 255, 1);
   --lihtblack-text: rgba(47, 48, 58, 1);
+  --lihtgrey-text: rgba(245, 244, 250, 1);
 }
 body {
   font-family: Roboto, sans-serif;
@@ -76,9 +77,13 @@ footer {
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
 
+.active {
+  color: var(--blue-text);
+}
